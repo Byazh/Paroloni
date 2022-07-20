@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639623207848",
+    "project_id": "parola-5d472",
+    "storage_bucket": "parola-5d472.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639623207848:android:482172b42e07512fef5b9d",
+        "android_client_info": {
+          "package_name": "com.mobile.word.word"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639623207848-n3l4cem630soiatsm49p4u9hlecm6gq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC0D-dN_d_juJ3_RQOa0dWVB0InkNKiQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639623207848-n3l4cem630soiatsm49p4u9hlecm6gq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

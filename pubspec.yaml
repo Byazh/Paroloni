@@ -1,0 +1,49 @@
+name: word
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.2
+  flutter_local_notifications:
+  timezone: ^0.8.0
+  flutter_native_timezone: ^2.0.0
+  table_calendar: ^3.0.6
+  url_launcher: ^6.1.4
+  flutter_launcher_icons: ^0.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "resources/icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - resources/words/parole.json
+  fonts:
+    - family: Euclid
+      fonts:
+        - asset: resources/fonts/euclid/EuclidCircularB-Light.ttf
+          weight: 300
+        - asset: resources/fonts/euclid/EuclidCircularB-Regular.ttf
+          weight: 400
+        - asset: resources/fonts/euclid/EuclidCircularB-Medium.ttf
+          weight: 500
+        - asset: resources/fonts/euclid/EuclidCircularB-SemiBold.ttf
+          weight: 700
+        - asset: resources/fonts/euclid/EuclidCircularB-Bold.ttf
+          weight: 900
